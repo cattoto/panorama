@@ -34,7 +34,7 @@
 ## **개발 환경**
 - **운영체제**: Windows 10
 - **Python 버전**: 3.11.3
-- **IDE**: VS Code Studio
+- **IDE**: PyCharm 또는 VS Code
 - **필요한 라이브러리**:
   - PyQt5==5.15.11
   - opencv-python==4.10.0.84
@@ -44,7 +44,7 @@
 
 ## **설치 및 실행 방법**
 1. **Python 환경 설정**:
-   - Python 3.8 이상 버전을 설치합니다.
+   - Python 3.11.3 버전을 설치합니다.
    - 설치할 경로에 가상환경을 생성합니다.:
      ```bash
      python -m venv 가상환경이름
@@ -71,5 +71,15 @@
    - `봉합` 버튼으로 파노라마를 생성합니다.
    - `저장` 버튼으로 결과물을 저장합니다.
    - `나가기` 버튼으로 프로그램을 종료합니다.
+
+---
+
+4. **실행 파일 패키징**:
+   - Python이 설치되지 않은 환경에서도 실행하려면 PyInstaller를 사용하여 실행 파일을 생성할 수 있습니다:
+     ```bash
+     pip install pyinstaller
+     pyinstaller --onefile --noconsole main.py
+     ```
+   - 생성된 실행 파일은 `main.exe`에서 확인할 수 있습니다.
 
 ---
