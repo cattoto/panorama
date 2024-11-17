@@ -34,7 +34,7 @@
 ## **개발 환경**
 - **운영체제**: Windows 10
 - **Python 버전**: 3.11.3
-- **IDE**: PyCharm 또는 VS Code
+- **IDE**: VS Code Studio
 - **필요한 라이브러리**:
   - PyQt5==5.15.11
   - opencv-python==4.10.0.84
