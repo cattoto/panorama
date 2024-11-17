@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "파노라마 영상 제작"
+description = "PyQt5를 이용한 파노라마 영상 제작 프로그램"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+PyQt5 = "5.15.11"
+opencv-python = "4.10.0.84"
+numpy = "^1.23.5"
+
+[build-system]
+requires = ["poetry>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
